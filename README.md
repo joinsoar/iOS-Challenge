@@ -64,13 +64,6 @@ Choose **ONE** animation to implement perfectly:
 └── Extensions/UIView+Extensions.swift // Utilities
 ```
 
-## Implementation Tips
-
-- **Start simple** - basic gesture first, then animation
-- **Test frequently** - especially on device for performance
-- **Focus on one interaction** - make it perfect
-- **Use spring animations** - they feel more natural
-
 ## Submission
 
 Submit:
