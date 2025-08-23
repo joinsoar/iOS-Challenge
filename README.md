@@ -10,6 +10,8 @@ Create a beautiful, interactive card component with custom animations. This focu
 
 An interactive wallet-style card component that responds to user gestures with smooth, custom animations. Think Apple Wallet meets beautiful design.
 
+![Wallet Card Preview](images/wallet-card-preview.png)
+
 ### Your Mission
 
 Choose **ONE** animation to implement perfectly:
