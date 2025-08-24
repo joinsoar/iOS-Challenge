@@ -17,7 +17,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         setupViewController()
         setupCardView()
-        setupGestures()
     }
     
     // MARK: - Setup
@@ -41,49 +40,7 @@ class MainViewController: UIViewController {
         ])
     }
     
-    private func setupGestures() {
-        // TODO: Add your gesture recognizers here!
-        
-        // Example: Tap gesture for basic interaction
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(cardTapped))
-        cardView.addGestureRecognizer(tapGesture)
-        
-        // TODO: Add more gestures based on your chosen animation:
-        // - UIPanGestureRecognizer for swipe actions
-        // - UITapGestureRecognizer for flip/expand animations
-        // - Custom gesture combinations
-    }
-    
-    // MARK: - Actions
-    @objc private func cardTapped() {
-        // TODO: Implement your chosen card interaction!
-        print("🎯 Card tapped - implement your animation here!")
-        
-        // Simple example animation (replace with your implementation)
-        cardView.pulse()
-    }
+
 }
 
-// MARK: - Animation Implementation
-extension MainViewController {
-    
-    /// TODO: Implement your chosen animation option here
-    /// 
-    /// Option 1: Flip Animation
-    /// - Create 3D rotation effect
-    /// - Switch between front/back content
-    /// - Add perspective transform
-    ///
-    /// Option 2: Swipe Actions  
-    /// - Add pan gesture recognition
-    /// - Reveal action buttons
-    /// - Implement spring physics
-    ///
-    /// Option 3: Expand Animation
-    /// - Scale card up/down
-    /// - Show/hide detailed content
-    /// - Add background dimming
-    private func implementCustomAnimation() {
-        // Your animation code goes here!
-    }
-}
+

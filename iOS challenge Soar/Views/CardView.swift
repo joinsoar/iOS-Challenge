@@ -101,27 +101,4 @@ class CardView: UIView {
     }
 }
 
-// MARK: - Animation Interface
-extension CardView {
-    
-    /// TODO: Implement your chosen animation here!
-    /// 
-    /// Examples:
-    /// - Flip animation (3D rotation between front/back)
-    /// - Swipe actions (reveal buttons on pan gesture)
-    /// - Expand animation (scale up with detailed content)
-    func performCustomAnimation() {
-        // Your animation implementation goes here
-        print("🎨 Implement your chosen animation!")
-    }
-    
-    /// Helper method to switch to back content (for flip animation)
-    func showBackContent() {
-        contentLabel.text = cardData.backContent
-    }
-    
-    /// Helper method to switch to front content (for flip animation)
-    func showFrontContent() {
-        contentLabel.text = cardData.frontContent
-    }
-}
+

@@ -18,21 +18,21 @@ Choose **ONE** animation to implement perfectly:
 
 #### Option 1: Flip Card 🔄
 
-- Tap to flip between front/back views
-- 3D rotation animation with perspective
-- Smooth physics and natural timing
+- Create a card flip animation to show back content
+- Implement smooth 3D rotation with perspective
+- Handle gesture interruption and edge cases
 
 #### Option 2: Swipe Actions 👆
 
-- Swipe left/right to reveal action buttons
-- Spring physics with rubber-band effect
-- Smooth snap-back animation
+- Implement pan gesture to reveal hidden actions
+- Create custom spring physics for natural feel
+- Handle velocity and momentum properly
 
 #### Option 3: Expandable Card 📱
 
-- Tap to expand/collapse with content
-- Scale and fade animations
-- Background dimming effect
+- Build expand/collapse interaction from scratch
+- Coordinate multiple animation properties
+- Create engaging visual hierarchy changes
 
 ### What We're Looking For
 
@@ -62,8 +62,7 @@ Choose **ONE** animation to implement perfectly:
 ├── Models/CardData.swift           // Simple data model
 ├── Views/CardView.swift           // Your card component
 ├── Views/MainViewController.swift // Container view
-├── Animations/CardAnimations.swift // Animation helpers
-└── Extensions/UIView+Extensions.swift // Utilities
+└── Extensions/UIView+Extensions.swift // Empty - add your helpers
 ```
 
 ## Submission
