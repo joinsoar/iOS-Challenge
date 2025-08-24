@@ -16,11 +16,11 @@ An interactive wallet-style card component that responds to user gestures with s
 
 Choose **ONE** animation to implement perfectly:
 
-#### Option 1: Flip Card 🔄
+#### Option 1: Parallax Depth Effect 🌊
 
-- Create a card flip animation to show back content
-- Implement smooth 3D rotation with perspective
-- Handle gesture interruption and edge cases
+- Create layered card elements with depth movement
+- Implement smooth parallax scrolling on gesture
+- Coordinate multiple elements at different speeds
 
 #### Option 2: Swipe Actions 👆
 
